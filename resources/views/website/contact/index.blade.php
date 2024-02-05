@@ -1,5 +1,5 @@
 @extends('layouts.website.parent',['homeHeading'=>false])
-@section('heading-title','Listing')
+@section('heading-title','Contact')
 @section('content')
 <div class="site-section bg-light" id="contact-section">
     <div class="container">
