@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('email');
             $table->text('body');
-            $table->foreignId('car_id')->constrained('cars');
+            $table->foreignId('car_id')->constrained('cars')->onDelete('cascade');
             $table->foreignId('user_id')->constrained('users');
             $table->timestamps();
         });

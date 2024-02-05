@@ -57,7 +57,7 @@ class StoreCarRequest extends FormRequest
             'luggage.numeric' => 'numbers only.',
             'description.required' => 'car description is required ',
             'description.string ' => 'car description must not be numbers',
-            'category_id.required' => 'select Sub Category',
+            'category_id.required' => 'select  Category',
             'category_id.integer' => 'Category id must be integer',
             'category_id.exists' => 'Category id must exists in the table',
             'image.required' => 'select image',
